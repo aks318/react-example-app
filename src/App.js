@@ -16,16 +16,23 @@ import UseReducerHook from "./component/Hooks/UseReducerHook";
 import UseRefHook from "./component/Hooks/UseRefHook";
 import Parent from "./component/LazyLoading/Parent";
 import TextInput from "./component/ListArrowFocus/TextInput";
+import ListNavigate from "./component/ListNavingate/ListNavigate";
+import UndoRedo from "./component/UndoRedo";
+import ShowCountry from "./component/ShowCountry";
 import Overflowbox from "./component/OverflowBox/Overflowbox";
 // import List from "./component/ListArrowFocus/List";
 import RouterDom from "./component/ReactRouterDomV6/RouterDOm";
 import ReduxRootComponent from "./component/Redux/ReduxRootComponent";
+import Practice from "./component/Practice";
+import Filter from "./component/Filter";
+import SideMap from "./component/SideMap";
+import Resize from "./component/Resize";
 
 function App() {
   return (
     <div className="App">
-      {/* <ClickCounter />
-      <HoverCounter /> */}
+      {/* {/* <ClickCounter /> */}
+      {/* <HoverCounter /> */}
       {/* <ParentComponet /> */}
       {/* <StateAndEffectHook /> */}
       {/* <UseEffectHook /> */}
@@ -44,7 +51,14 @@ function App() {
       {/* <List /> */}
       {/* <TextInput /> */}
       {/* <GridWithHiddenBox /> */}
-      <Overflowbox />
+      {/* <Overflowbox /> */}
+      {/* <ListNavigate /> */}
+      {/* <UndoRedo /> */}
+      {/* <ShowCountry /> */}
+      {/* <Practice /> */}
+      {/* <Filter /> */}
+      {/* <SideMap /> */}
+      <Resize />
     </div>
   );
 }

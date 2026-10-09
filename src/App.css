@@ -24,6 +24,7 @@ form button {
   background-color: blueviolet;
 }
 
-button:focus {
-  background-color: red;
+button:focus,
+button:hover {
+  background-color: red !important;
 }
